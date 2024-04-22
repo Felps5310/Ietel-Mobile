@@ -29,8 +29,10 @@ class App extends StatelessWidget {
       routes: {
         "/calculadora": (context) => const CalculadoraPage(),
         "/resultado": (context) => const ResultadoPage(),
+        "/cadastraDataHorario": (context) => const CadastraDataHorarioPage(),
+        "/cadastraManutencao": (context) => const CadastraManutencaoPage()
       },
-      initialRoute: '/calculadora',
+      initialRoute: '/cadastraDataHorario',
     );
   }
 }
